@@ -18,3 +18,5 @@ conn.connect()
 
 est = pd.read_sql("""select * from taxi_train
 				   where vendor_id is not null limit 100""", conn)
+
+est

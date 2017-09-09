@@ -7,12 +7,11 @@ Created on Sat Sep  9 16:49:09 2017
 import pymysql
 import pandas as pd
 
-conn = pymysql.connect(host='localhost',
-							 user='hungy',
-							 password='1234qwer',
+conn = pymysql.connect(host='192.168.15.15',
+							 user='abi',
+							 password='bab',
 							 db='kaggle_taxi',
-							 charset='utf8mb4',
-							 cursorclass=pymysql.cursors.DictCursor)
+							)
 
 conn.connect()
 
